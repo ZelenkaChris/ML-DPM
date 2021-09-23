@@ -1,38 +1,38 @@
-.App {
+#stats-table > div {
+  padding: 0;
+}
+
+#stats-header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.char-stats > label{
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Calc-wrapper {
+  width: 33%;
+  min-width: 500px;
+  margin: auto;
+  margin-top: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#calculate button {
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+#totals > div > span:nth-child(2) {
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#DPM-max {
+  color: red;
+}
+
+#DPM-avg {
+  color: green;
+}
+
+#DPM-min {
+  color: blue;
 }
